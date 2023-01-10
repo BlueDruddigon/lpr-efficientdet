@@ -1,0 +1,27 @@
+{
+  "pyright": {
+    "disableOrganizeImports": true,
+    "disableLanguageServices": false
+  },
+  "python": {
+    "venvPath": "$HOME/anaconda3/envs/env",
+    "pythonPath": "python3",
+    "analysis": {
+      "logLevel": "Information",
+      "stubPath": "$HOME/Downloads/typings",
+      "extraPaths": [],
+      "typeshedPaths": [],
+      "autoSearchPaths": true,
+      "typeCheckingMode": "basic",
+      "diagnosticMode": "workspace",
+      "autoImportCompletions": true,
+      "useLibraryCodeForTypes": false,
+      "diagnosticSeverityOverrides": {
+        "reportGeneralTypeIssues": "none",
+        "reportPrivateImportUsage": "none",
+        "reportOptionalIterable": "none",
+        "reportOptionalMemberAccess": "none"
+      }
+    }
+  }
+}
